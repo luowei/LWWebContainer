@@ -6,13 +6,29 @@
 //  Copyright (c) 2019 luowei. All rights reserved.
 //
 
+#import <libWebContainer/LWWebContainerVC.h>
 #import "WCAppDelegate.h"
+#import "MyTabBarController.h"
 
 @implementation WCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    self.config = [[NSUserDefaults standardUserDefaults] objectForKey:@"config"];
+    if(!self.config){
+        self.config = @{
+                @"home":@"https://mallweb.koofenqi.com/web/indexPage/index.html#/",
+                @"mall":@"http://wodedata.com",
+                @"me":@"https://mallweb.koofenqi.com/web/homeMask/index.html#/personalCenter",
+        };
+        [[NSUserDefaults standardUserDefaults] setObject:self.config forKey:@"config"];
+    }
+
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NSBundle.mainBundle];
+
+
+
     return YES;
 }
 

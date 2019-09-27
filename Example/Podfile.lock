@@ -1,0 +1,27 @@
+PODS:
+  - Aspects (1.4.1)
+  - FLEX (3.0.0)
+  - libWebContainer (1.0.0)
+
+DEPENDENCIES:
+  - Aspects
+  - FLEX (~> 3.0)
+  - libWebContainer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Aspects
+    - FLEX
+
+EXTERNAL SOURCES:
+  libWebContainer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  FLEX: d66c759bce0f6ebbbf472c742380874d846f2883
+  libWebContainer: c8f35300066a00d3cc274df6e9961417b5f7f7d6
+
+PODFILE CHECKSUM: 53447f70e01a9b05dc70dced23cf7fd5e83181c2
+
+COCOAPODS: 1.6.1

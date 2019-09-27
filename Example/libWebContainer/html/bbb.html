@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bbb</title>
+</head>
+<body>
+
+<h1>nativeOpenURL</h1>
+
+<script>
+
+    function webViewReload() {
+        window.webkit.messageHandlers.webViewReload.postMessage("");
+    }
+    function webViewBack() {
+        window.webkit.messageHandlers.webViewBack.postMessage("");
+    }
+    function webViewForward() {
+        window.webkit.messageHandlers.webViewForward.postMessage("");
+    }
+    function webViewOpenURL(url) {
+        window.webkit.messageHandlers.webViewOpenURL.postMessage(url);
+    }
+
+    function nativeHideNavBar() {
+        window.webkit.messageHandlers.nativeHideNavBar.postMessage("");
+    }
+    function nativeShowNavBar() {
+        window.webkit.messageHandlers.nativeShowNavBar.postMessage("");
+    }
+    function nativeBack() {
+        window.webkit.messageHandlers.nativeBack.postMessage("");
+    }
+    function nativeOpenURL(url) {
+        window.webkit.messageHandlers.nativeOpenURL.postMessage(url);
+    }
+
+</script>
+
+
+name:<input type="text" placeholder="请输入"><br/>
+
+<p>
+    <input type="button" value="webViewReload" onclick="webViewReload()"><br/><br/>
+    <input type="button" value="webViewBack" onclick="webViewBack()"><br/><br/>
+    <input type="button" value="webViewForward" onclick="webViewForward()"><br/><br/>
+    <input type="button" value="webViewOpenURL" onclick="webViewOpenURL('http://mymall.com/aaa.html')"><br/><br/>
+</p>
+<hr/>
+<p>
+    <input type="button" value="nativeHideNavBar" onclick="nativeHideNavBar()"><br/><br/>
+    <input type="button" value="nativeShowNavBar" onclick="nativeShowNavBar()"><br/><br/>
+    <input type="button" value="nativeBack" onclick="nativeBack()"><br/><br/>
+    <input type="button" value="nativeOpenURL" onclick="nativeOpenURL('http://mymall.com/bbb.html')"><br/><br/>
+</p>
+
+</body>
+</html>

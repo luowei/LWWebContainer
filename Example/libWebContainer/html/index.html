@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>测试页面</title>
+</head>
+<body>
+
+<h1>index page</h1>
+
+<script>
+
+    // window.onload = function() {
+    function currentLoaction() {
+        if (navigator.geolocation) {
+            console.log('Geolocation is supported!');
+        }
+        else {
+            console.log('Geolocation is not supported for this Browser/OS.');
+        }
+
+        var startPos;
+        var geoSuccess = function(position) {
+            startPos = position;
+            document.getElementById('startLat').innerHTML = startPos.coords.latitude;
+            document.getElementById('startLon').innerHTML = startPos.coords.longitude;
+        };
+        navigator.geolocation.getCurrentPosition(geoSuccess);
+    }
+
+    function webViewReload() {
+        window.webkit.messageHandlers.webViewReload.postMessage("");
+    }
+    function webViewBack() {
+        window.webkit.messageHandlers.webViewBack.postMessage("");
+    }
+    function webViewForward() {
+        window.webkit.messageHandlers.webViewForward.postMessage("");
+    }
+    function webViewOpenURL(url) {
+        window.webkit.messageHandlers.webViewOpenURL.postMessage(url);
+    }
+
+    function nativeHideNavBar() {
+        window.webkit.messageHandlers.nativeHideNavBar.postMessage("");
+    }
+    function nativeShowNavBar() {
+        window.webkit.messageHandlers.nativeShowNavBar.postMessage("");
+    }
+    function nativeBack() {
+        window.webkit.messageHandlers.nativeBack.postMessage("");
+    }
+    function nativeOpenURL(url) {
+        window.webkit.messageHandlers.nativeOpenURL.postMessage(url);
+    }
+
+</script>
+
+
+name:<input type="text" placeholder="请输入"><br/>
+
+<p>
+    <input type="button" value="webViewReload" onclick="webViewReload()"><br/><br/>
+    <input type="button" value="webViewBack" onclick="webViewBack()"><br/><br/>
+    <input type="button" value="webViewForward" onclick="webViewForward()"><br/><br/>
+    <input type="button" value="webViewOpenURL" onclick="webViewOpenURL('http://mymall.com/aaa.html')"><br/><br/>
+</p>
+<hr/>
+<p>
+    <input type="button" value="nativeHideNavBar" onclick="nativeHideNavBar()"><br/><br/>
+    <input type="button" value="nativeShowNavBar" onclick="nativeShowNavBar()"><br/><br/>
+    <input type="button" value="nativeBack" onclick="nativeBack()"><br/><br/>
+    <input type="button" value="nativeOpenURL" onclick="nativeOpenURL('http://mymall.com/bbb.html')"><br/><br/>
+</p>
+<hr/>
+<p>
+    文件上传：<input type="file" value="文件上传"><br/><br/>
+    照片上传：<input type="file" value="照片上传" accept=".jpg,.jpeg,.png,.gif"><br/><br/>
+
+    <input type="button" value="百度" onclick="nativeOpenURL('http://m.baidu.com')"><br/><br/>
+
+    位置<br/><span id="startLon"></span> , <span id="startLat"></span>
+    <input type="button" value="获取当前位置" onclick="currentLoaction()">
+</p>
+
+</body>
+</html>
