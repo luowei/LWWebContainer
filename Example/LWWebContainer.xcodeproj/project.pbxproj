@@ -16,7 +16,7 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AF025B6E27AAD0D1F3541792 /* Pods_libWebContainer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7A14F8497AF772EF3DAF58 /* Pods_libWebContainer_Example.framework */; };
+		C857F856E7F83A10166B4DCD /* Pods_LWWebContainer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5908B8D3EDF8BC8946A81F8C /* Pods_LWWebContainer_Example.framework */; };
 		EA11C149233D104700F5F8A3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EA11C146233D104700F5F8A3 /* index.html */; };
 		EA11C14A233D104700F5F8A3 /* aaa.html in Resources */ = {isa = PBXBuildFile; fileRef = EA11C147233D104700F5F8A3 /* aaa.html */; };
 		EA11C14B233D104700F5F8A3 /* bbb.html in Resources */ = {isa = PBXBuildFile; fileRef = EA11C148233D104700F5F8A3 /* bbb.html */; };
@@ -25,28 +25,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A0C31A9E6F6157E627E2C42 /* Pods-libWebContainer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libWebContainer_Tests.release.xcconfig"; path = "Target Support Files/Pods-libWebContainer_Tests/Pods-libWebContainer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0A0C31A9E6F6157E627E2C42 /* Pods-LWWebContainer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebContainer_Tests.release.xcconfig"; path = "Target Support Files/Pods-LWWebContainer_Tests/Pods-LWWebContainer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32E6A3B768AFB4F18D0B945A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5E7E80DDA30C1510A15C91F5 /* libWebContainer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libWebContainer.podspec; path = ../libWebContainer.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* libWebContainer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libWebContainer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5908B8D3EDF8BC8946A81F8C /* Pods_LWWebContainer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWWebContainer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7E80DDA30C1510A15C91F5 /* LWWebContainer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWWebContainer.podspec; path = ../LWWebContainer.podspec; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* LWWebContainer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWWebContainer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* libWebContainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libWebContainer-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* LWWebContainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWWebContainer-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* libWebContainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libWebContainer-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* LWWebContainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LWWebContainer-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* WCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* WCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		728AAFF99B21BE706DBF7E4B /* Pods_libWebContainer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libWebContainer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C283F31342800CCAAB4A8B9 /* Pods-libWebContainer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libWebContainer_Example.debug.xcconfig"; path = "Target Support Files/Pods-libWebContainer_Example/Pods-libWebContainer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		728AAFF99B21BE706DBF7E4B /* Pods_LWWebContainer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWWebContainer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73319F7F5FC83AE8F9433E99 /* Pods-LWWebContainer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebContainer_Example.debug.xcconfig"; path = "Target Support Files/Pods-LWWebContainer_Example/Pods-LWWebContainer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C283F31342800CCAAB4A8B9 /* Pods-LWWebContainer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebContainer_Example.debug.xcconfig"; path = "Target Support Files/Pods-LWWebContainer_Example/Pods-LWWebContainer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8938ED5E0A8030BE1861D5AF /* Pods-libWebContainer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libWebContainer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-libWebContainer_Tests/Pods-libWebContainer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9B4FF4B5D21BD252BED89D0E /* Pods-libWebContainer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libWebContainer_Example.release.xcconfig"; path = "Target Support Files/Pods-libWebContainer_Example/Pods-libWebContainer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BF7A14F8497AF772EF3DAF58 /* Pods_libWebContainer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libWebContainer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8938ED5E0A8030BE1861D5AF /* Pods-LWWebContainer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebContainer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LWWebContainer_Tests/Pods-LWWebContainer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B4FF4B5D21BD252BED89D0E /* Pods-LWWebContainer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebContainer_Example.release.xcconfig"; path = "Target Support Files/Pods-LWWebContainer_Example/Pods-LWWebContainer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B7408A0EC0EC8D8D6716BD19 /* Pods-LWWebContainer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWWebContainer_Example.release.xcconfig"; path = "Target Support Files/Pods-LWWebContainer_Example/Pods-LWWebContainer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E170CF38A6E43611EEFAC1A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EA11C146233D104700F5F8A3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		EA11C147233D104700F5F8A3 /* aaa.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aaa.html; sourceTree = "<group>"; };
@@ -65,7 +67,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				AF025B6E27AAD0D1F3541792 /* Pods_libWebContainer_Example.framework in Frameworks */,
+				C857F856E7F83A10166B4DCD /* Pods_LWWebContainer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +77,12 @@
 		5C5BF1075374BB6EB4C85BCF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7C283F31342800CCAAB4A8B9 /* Pods-libWebContainer_Example.debug.xcconfig */,
-				9B4FF4B5D21BD252BED89D0E /* Pods-libWebContainer_Example.release.xcconfig */,
-				8938ED5E0A8030BE1861D5AF /* Pods-libWebContainer_Tests.debug.xcconfig */,
-				0A0C31A9E6F6157E627E2C42 /* Pods-libWebContainer_Tests.release.xcconfig */,
+				7C283F31342800CCAAB4A8B9 /* Pods-LWWebContainer_Example.debug.xcconfig */,
+				9B4FF4B5D21BD252BED89D0E /* Pods-LWWebContainer_Example.release.xcconfig */,
+				8938ED5E0A8030BE1861D5AF /* Pods-LWWebContainer_Tests.debug.xcconfig */,
+				0A0C31A9E6F6157E627E2C42 /* Pods-LWWebContainer_Tests.release.xcconfig */,
+				73319F7F5FC83AE8F9433E99 /* Pods-LWWebContainer_Example.debug.xcconfig */,
+				B7408A0EC0EC8D8D6716BD19 /* Pods-LWWebContainer_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -87,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for libWebContainer */,
+				6003F593195388D20070C39A /* Example for  LWWebContainer */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				5C5BF1075374BB6EB4C85BCF /* Pods */,
@@ -97,7 +101,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* libWebContainer_Example.app */,
+				6003F58A195388D20070C39A /* LWWebContainer_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,13 +113,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BF7A14F8497AF772EF3DAF58 /* Pods_libWebContainer_Example.framework */,
-				728AAFF99B21BE706DBF7E4B /* Pods_libWebContainer_Tests.framework */,
+				728AAFF99B21BE706DBF7E4B /* Pods_LWWebContainer_Tests.framework */,
+				5908B8D3EDF8BC8946A81F8C /* Pods_LWWebContainer_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for libWebContainer */ = {
+		6003F593195388D20070C39A /* Example for  LWWebContainer */ = {
 			isa = PBXGroup;
 			children = (
 				EA11C145233D104700F5F8A3 /* html */,
@@ -130,17 +134,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for libWebContainer";
-			path = libWebContainer;
+			name = "Example for  LWWebContainer";
+			path = LWWebContainer;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* libWebContainer-Info.plist */,
+				6003F595195388D20070C39A /* LWWebContainer-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* libWebContainer-Prefix.pch */,
+				6003F59B195388D20070C39A /* LWWebContainer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,7 +152,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				5E7E80DDA30C1510A15C91F5 /* libWebContainer.podspec */,
+				5E7E80DDA30C1510A15C91F5 /* LWWebContainer.podspec */,
 				32E6A3B768AFB4F18D0B945A /* README.md */,
 				E170CF38A6E43611EEFAC1A1 /* LICENSE */,
 			);
@@ -168,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* libWebContainer_Example */ = {
+		6003F589195388D20070C39A /* LWWebContainer_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libWebContainer_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWWebContainer_Example" */;
 			buildPhases = (
 				57A8FABDE5FBAC11860F7DC0 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -182,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = libWebContainer_Example;
-			productName = libWebContainer;
-			productReference = 6003F58A195388D20070C39A /* libWebContainer_Example.app */;
+			name = LWWebContainer_Example;
+			productName = LWWebContainer;
+			productReference = 6003F58A195388D20070C39A /* LWWebContainer_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "libWebContainer" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LWWebContainer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* libWebContainer_Example */,
+				6003F589195388D20070C39A /* LWWebContainer_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +258,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-libWebContainer_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LWWebContainer_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -266,25 +270,21 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-libWebContainer_Example/Pods-libWebContainer_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LWWebContainer_Example/Pods-LWWebContainer_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
 				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
-				"${BUILT_PRODUCTS_DIR}/libWebContainer/libWebContainer.framework",
+				"${BUILT_PRODUCTS_DIR}/LWWebContainer/LWWebContainer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libWebContainer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWWebContainer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-libWebContainer_Example/Pods-libWebContainer_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LWWebContainer_Example/Pods-LWWebContainer_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -398,15 +398,15 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C283F31342800CCAAB4A8B9 /* Pods-libWebContainer_Example.debug.xcconfig */;
+			baseConfigurationReference = 73319F7F5FC83AE8F9433E99 /* Pods-LWWebContainer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libWebContainer/libWebContainer-Prefix.pch";
-				INFOPLIST_FILE = "libWebContainer/libWebContainer-Info.plist";
+				GCC_PREFIX_HEADER = "LWWebContainer/LWWebContainer-Prefix.pch";
+				INFOPLIST_FILE = "LWWebContainer/LWWebContainer-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.wodedata.libWebContainer-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wodedata.LWWebContainer-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -415,15 +415,15 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4FF4B5D21BD252BED89D0E /* Pods-libWebContainer_Example.release.xcconfig */;
+			baseConfigurationReference = B7408A0EC0EC8D8D6716BD19 /* Pods-LWWebContainer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libWebContainer/libWebContainer-Prefix.pch";
-				INFOPLIST_FILE = "libWebContainer/libWebContainer-Info.plist";
+				GCC_PREFIX_HEADER = "LWWebContainer/LWWebContainer-Prefix.pch";
+				INFOPLIST_FILE = "LWWebContainer/LWWebContainer-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.wodedata.libWebContainer-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wodedata.LWWebContainer-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -433,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "libWebContainer" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LWWebContainer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -442,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libWebContainer_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWWebContainer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,

@@ -1,12 +1,12 @@
 //
 //  WCAppDelegate.m
-//  libWebContainer
+//  LWWebContainer
 //
 //  Created by luowei on 09/26/2019.
 //  Copyright (c) 2019 luowei. All rights reserved.
 //
 
-#import <libWebContainer/LWWebContainerVC.h>
+#import <LWWebContainer/LWWebContainerVC.h>
 #import "WCAppDelegate.h"
 #import "MyTabBarController.h"
 

@@ -6,7 +6,7 @@
 #import "LWHookConfig.h"
 #import "WCAppDelegate.h"
 #import <Aspects/Aspects.h>
-#import <libWebContainer/LWWebContainerVC.h>
+#import <LWWebContainer/LWWebContainerVC.h>
 
 
 @implementation LWHookConfig {

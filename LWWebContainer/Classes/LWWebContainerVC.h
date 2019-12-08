@@ -15,7 +15,7 @@
 #define WCLog(...)
 #endif
 
-#define LWWebContainerBundle(obj)  ([NSBundle bundleWithPath:[[NSBundle bundleForClass:[obj class]] pathForResource:@"libWebContainer" ofType:@"bundle"]] ?: ([NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"libWebContainer " ofType:@"bundle"]] ?: [NSBundle mainBundle]))
+#define LWWebContainerBundle(obj)  ([NSBundle bundleWithPath:[[NSBundle bundleForClass:[obj class]] pathForResource:@"LWWebContainer" ofType:@"bundle"]] ?: ([NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"LWWebContainer " ofType:@"bundle"]] ?: [NSBundle mainBundle]))
 #define UIImageWithName(name,obj) ([UIImage imageNamed:name inBundle:LWWebContainerBundle(obj) compatibleWithTraitCollection:nil])
 
 

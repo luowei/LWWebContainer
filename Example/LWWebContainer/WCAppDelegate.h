@@ -1,6 +1,6 @@
 //
 //  WCAppDelegate.h
-//  libWebContainer
+//  LWWebContainer
 //
 //  Created by luowei on 09/26/2019.
 //  Copyright (c) 2019 luowei. All rights reserved.

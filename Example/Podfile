@@ -2,8 +2,8 @@ use_frameworks!
 
 platform :ios, '8.0'
 
-target 'libWebContainer_Example' do
-  pod 'libWebContainer', :path => '../'
+target 'LWWebContainer_Example' do
+  pod 'LWWebContainer', :path => '../'
 
   pod 'Aspects'
   pod 'FLEX', '~> 3.0', :configurations => ['Debug']
