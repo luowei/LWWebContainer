@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LWWebContainer'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWWebContainer"
+```
+
 ## Author
 
 luowei, luowei@wodedata.com
