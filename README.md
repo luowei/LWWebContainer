@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/LWWebContainer.svg?style=flat)](https://cocoapods.org/pods/LWWebContainer)
 [![Platform](https://img.shields.io/cocoapods/p/LWWebContainer.svg?style=flat)](https://cocoapods.org/pods/LWWebContainer)
 
-[English](./README.md) | [中文版](./README_ZH.md)
+[English](./README.md) | [中文版](./README_ZH.md) | [Swift Version](./README_SWIFT_VERSION.md)
 
 A powerful and flexible WKWebView container for iOS that provides seamless web content integration with native iOS applications. Built on top of WKWebView, LWWebContainer offers advanced features including tab management, JavaScript bridge communication, and comprehensive navigation controls.
 

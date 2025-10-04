@@ -31,8 +31,9 @@ LWWebContainer，基于WKWebView的Web容器组件，仿原理交互支持链接
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LWWebContainer/Classes/**/*'
-  
+  s.source_files = 'LWWebContainer/Classes/**/*.{h,m}'
+  s.exclude_files = 'LWWebContainer/Classes/**/*.swift'
+
   s.resource_bundles = {
     'LWWebContainer' => ['LWWebContainer/Assets/**/*']
   }
