@@ -1,0 +1,2934 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Package.swift",
+      "file_type": "code",
+      "source_file": "Package.swift",
+      "source_location": "L1",
+      "id": "package_swift",
+      "community": 10,
+      "norm_label": "package.swift"
+    },
+    {
+      "label": "LWWebContainerUsageExamples.swift",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L1",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_swift",
+      "community": 2,
+      "norm_label": "lwwebcontainerusageexamples.swift"
+    },
+    {
+      "label": "ExampleViewController",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L17",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "community": 2,
+      "norm_label": "exampleviewcontroller"
+    },
+    {
+      "label": "UIViewController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiviewcontroller",
+      "community": 2,
+      "norm_label": "uiviewcontroller"
+    },
+    {
+      "label": ".example_presentWebContainer()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L21",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_presentwebcontainer",
+      "community": 2,
+      "norm_label": ".example_presentwebcontainer()"
+    },
+    {
+      "label": ".example_pushWebContainer()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L29",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_pushwebcontainer",
+      "community": 2,
+      "norm_label": ".example_pushwebcontainer()"
+    },
+    {
+      "label": ".example_loadURLInContainer()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L37",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_loadurlincontainer",
+      "community": 2,
+      "norm_label": ".example_loadurlincontainer()"
+    },
+    {
+      "label": ".example_loadURLInNewTab()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L49",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_loadurlinnewtab",
+      "community": 2,
+      "norm_label": ".example_loadurlinnewtab()"
+    },
+    {
+      "label": ".example_accessWebView()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L62",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_accesswebview",
+      "community": 2,
+      "norm_label": ".example_accesswebview()"
+    },
+    {
+      "label": ".example_cookieManagement()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L85",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_cookiemanagement",
+      "community": 2,
+      "norm_label": ".example_cookiemanagement()"
+    },
+    {
+      "label": "ExampleSwiftUIView",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L110",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleswiftuiview",
+      "community": 2,
+      "norm_label": "exampleswiftuiview"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "view",
+      "community": 2,
+      "norm_label": "view"
+    },
+    {
+      "label": "AdvancedExampleViewController",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L178",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller",
+      "community": 2,
+      "norm_label": "advancedexampleviewcontroller"
+    },
+    {
+      "label": ".example_injectJavaScript()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L182",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_injectjavascript",
+      "community": 2,
+      "norm_label": ".example_injectjavascript()"
+    },
+    {
+      "label": ".example_injectCSS()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L196",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_injectcss",
+      "community": 2,
+      "norm_label": ".example_injectcss()"
+    },
+    {
+      "label": ".example_customSchemeHandling()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L214",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_customschemehandling",
+      "community": 2,
+      "norm_label": ".example_customschemehandling()"
+    },
+    {
+      "label": ".example_webToNativeJavaScriptBridge()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L226",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_webtonativejavascriptbridge",
+      "community": 2,
+      "norm_label": ".example_webtonativejavascriptbridge()"
+    },
+    {
+      "label": "ConfigurationExampleViewController",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L245",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_configurationexampleviewcontroller",
+      "community": 2,
+      "norm_label": "configurationexampleviewcontroller"
+    },
+    {
+      "label": ".example_usingConfiguration()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L249",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_configurationexampleviewcontroller_example_usingconfiguration",
+      "community": 4,
+      "norm_label": ".example_usingconfiguration()"
+    },
+    {
+      "label": "LWWebContainerViewController",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L264",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_lwwebcontainerviewcontroller",
+      "community": 2,
+      "norm_label": "lwwebcontainerviewcontroller"
+    },
+    {
+      "label": ".customWebViewController()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L267",
+      "id": "lwwebcontainer_swift_lwwebcontainerusageexamples_lwwebcontainerviewcontroller_customwebviewcontroller",
+      "community": 2,
+      "norm_label": ".customwebviewcontroller()"
+    },
+    {
+      "label": "LWWebContainerView.swift",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L1",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_swift",
+      "community": 3,
+      "norm_label": "lwwebcontainerview.swift"
+    },
+    {
+      "label": "LWWebContainerView",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L13",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview",
+      "community": 3,
+      "norm_label": "lwwebcontainerview"
+    },
+    {
+      "label": "UIViewRepresentable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiviewrepresentable",
+      "community": 3,
+      "norm_label": "uiviewrepresentable"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L28",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_init",
+      "community": 3,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".makeCoordinator()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L46",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_makecoordinator",
+      "community": 3,
+      "norm_label": ".makecoordinator()"
+    },
+    {
+      "label": ".makeUIView()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L50",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_makeuiview",
+      "community": 3,
+      "norm_label": ".makeuiview()"
+    },
+    {
+      "label": ".updateUIView()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L66",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_updateuiview",
+      "community": 3,
+      "norm_label": ".updateuiview()"
+    },
+    {
+      "label": "Coordinator",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L78",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "community": 3,
+      "norm_label": "coordinator"
+    },
+    {
+      "label": "NSObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "nsobject",
+      "community": 3,
+      "norm_label": "nsobject"
+    },
+    {
+      "label": "WKNavigationDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "wknavigationdelegate",
+      "community": 3,
+      "norm_label": "wknavigationdelegate"
+    },
+    {
+      "label": "WKUIDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "wkuidelegate",
+      "community": 3,
+      "norm_label": "wkuidelegate"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L82",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_coordinator_init",
+      "community": 3,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".webView()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L86",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_coordinator_webview",
+      "community": 3,
+      "norm_label": ".webview()"
+    },
+    {
+      "label": "LWWebContainerViewController",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L120",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewcontroller",
+      "community": 3,
+      "norm_label": "lwwebcontainerviewcontroller"
+    },
+    {
+      "label": ".getProcessPool()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L121",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewcontroller_getprocesspool",
+      "community": 3,
+      "norm_label": ".getprocesspool()"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L128",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_view",
+      "community": 3,
+      "norm_label": "view"
+    },
+    {
+      "label": ".lwWebContainer()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L132",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_view_lwwebcontainer",
+      "community": 3,
+      "norm_label": ".lwwebcontainer()"
+    },
+    {
+      "label": "LWWebContainerViewWrapper",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L143",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewwrapper",
+      "community": 3,
+      "norm_label": "lwwebcontainerviewwrapper"
+    },
+    {
+      "label": "LWWebContainerRepresentable",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L211",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable",
+      "community": 7,
+      "norm_label": "lwwebcontainerrepresentable"
+    },
+    {
+      "label": "UIViewControllerRepresentable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiviewcontrollerrepresentable",
+      "community": 7,
+      "norm_label": "uiviewcontrollerrepresentable"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L216",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable_init",
+      "community": 7,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".makeUIViewController()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L220",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable_makeuiviewcontroller",
+      "community": 7,
+      "norm_label": ".makeuiviewcontroller()"
+    },
+    {
+      "label": ".updateUIViewController()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L226",
+      "id": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable_updateuiviewcontroller",
+      "community": 7,
+      "norm_label": ".updateuiviewcontroller()"
+    },
+    {
+      "label": "LWWebContainerViewController.swift",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L1",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_swift",
+      "community": 0,
+      "norm_label": "lwwebcontainerviewcontroller.swift"
+    },
+    {
+      "label": "WCLog()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L13",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_wclog",
+      "community": 0,
+      "norm_label": "wclog()"
+    },
+    {
+      "label": "LWWebContainerViewController",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L21",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "community": 0,
+      "norm_label": "lwwebcontainerviewcontroller"
+    },
+    {
+      "label": ".webViewController()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L44",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webviewcontroller",
+      "community": 0,
+      "norm_label": ".webviewcontroller()"
+    },
+    {
+      "label": ".viewDidLoad()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L52",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "community": 0,
+      "norm_label": ".viewdidload()"
+    },
+    {
+      "label": ".deinit()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L78",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_deinit",
+      "community": 0,
+      "norm_label": ".deinit()"
+    },
+    {
+      "label": ".viewWillAppear()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L86",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewwillappear",
+      "community": 0,
+      "norm_label": ".viewwillappear()"
+    },
+    {
+      "label": ".setupWebView()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L94",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setupwebview",
+      "community": 0,
+      "norm_label": ".setupwebview()"
+    },
+    {
+      "label": ".setupProgressView()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L144",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setupprogressview",
+      "community": 0,
+      "norm_label": ".setupprogressview()"
+    },
+    {
+      "label": ".setupRefreshControl()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L157",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setuprefreshcontrol",
+      "community": 0,
+      "norm_label": ".setuprefreshcontrol()"
+    },
+    {
+      "label": ".loadURL()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L165",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadurl",
+      "community": 0,
+      "norm_label": ".loadurl()"
+    },
+    {
+      "label": ".loadURLInNewTab()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L170",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadurlinnewtab",
+      "community": 0,
+      "norm_label": ".loadurlinnewtab()"
+    },
+    {
+      "label": ".reload()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L175",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_reload",
+      "community": 0,
+      "norm_label": ".reload()"
+    },
+    {
+      "label": ".refreshReload()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L182",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_refreshreload",
+      "community": 0,
+      "norm_label": ".refreshreload()"
+    },
+    {
+      "label": ".backAction()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L187",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_backaction",
+      "community": 0,
+      "norm_label": ".backaction()"
+    },
+    {
+      "label": ".createBackButton()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L191",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_createbackbutton",
+      "community": 0,
+      "norm_label": ".createbackbutton()"
+    },
+    {
+      "label": ".loadBundleImage()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L209",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadbundleimage",
+      "community": 0,
+      "norm_label": ".loadbundleimage()"
+    },
+    {
+      "label": ".appOpenURLString()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L218",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_appopenurlstring",
+      "community": 0,
+      "norm_label": ".appopenurlstring()"
+    },
+    {
+      "label": ".observeValue()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L231",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_observevalue",
+      "community": 0,
+      "norm_label": ".observevalue()"
+    },
+    {
+      "label": ".webView()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L253",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webview",
+      "community": 0,
+      "norm_label": ".webview()"
+    },
+    {
+      "label": "WKScriptMessageHandler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "wkscriptmessagehandler",
+      "community": 0,
+      "norm_label": "wkscriptmessagehandler"
+    },
+    {
+      "label": ".userContentController()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L328",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "community": 0,
+      "norm_label": ".usercontentcontroller()"
+    },
+    {
+      "label": "WKHTTPCookieStoreObserver",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "wkhttpcookiestoreobserver",
+      "community": 0,
+      "norm_label": "wkhttpcookiestoreobserver"
+    },
+    {
+      "label": ".cookiesDidChange()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L386",
+      "id": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_cookiesdidchange",
+      "community": 0,
+      "norm_label": ".cookiesdidchange()"
+    },
+    {
+      "label": "LWWebContainer.h",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainer.h",
+      "source_location": "L1",
+      "id": "lwwebcontainer_swift_lwwebcontainer_h",
+      "community": 11,
+      "norm_label": "lwwebcontainer.h"
+    },
+    {
+      "label": "LWWebContainerExtensions.swift",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L1",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "community": 4,
+      "norm_label": "lwwebcontainerextensions.swift"
+    },
+    {
+      "label": "URL",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L14",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_url",
+      "community": 0,
+      "norm_label": "url"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L29",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_string",
+      "community": 4,
+      "norm_label": "string"
+    },
+    {
+      "label": "WKWebView",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L44",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview",
+      "community": 4,
+      "norm_label": "wkwebview"
+    },
+    {
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L48",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_load",
+      "community": 0,
+      "norm_label": ".load()"
+    },
+    {
+      "label": ".evaluateJavaScript()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L60",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_evaluatejavascript",
+      "community": 4,
+      "norm_label": ".evaluatejavascript()"
+    },
+    {
+      "label": ".injectCSS()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L72",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_injectcss",
+      "community": 4,
+      "norm_label": ".injectcss()"
+    },
+    {
+      "label": ".injectJavaScript()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L83",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_injectjavascript",
+      "community": 4,
+      "norm_label": ".injectjavascript()"
+    },
+    {
+      "label": "Bundle",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L90",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_bundle",
+      "community": 4,
+      "norm_label": "bundle"
+    },
+    {
+      "label": ".lwWebContainerImage()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L105",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_bundle_lwwebcontainerimage",
+      "community": 4,
+      "norm_label": ".lwwebcontainerimage()"
+    },
+    {
+      "label": "LWCookieManager",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L112",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager",
+      "community": 8,
+      "norm_label": "lwcookiemanager"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L116",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_init",
+      "community": 8,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".syncCookies()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L120",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_synccookies",
+      "community": 8,
+      "norm_label": ".synccookies()"
+    },
+    {
+      "label": ".getAllCookies()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L147",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_getallcookies",
+      "community": 8,
+      "norm_label": ".getallcookies()"
+    },
+    {
+      "label": ".deleteAllCookies()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L158",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_deleteallcookies",
+      "community": 8,
+      "norm_label": ".deleteallcookies()"
+    },
+    {
+      "label": "LWScriptMessage",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L181",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwscriptmessage",
+      "community": 4,
+      "norm_label": "lwscriptmessage"
+    },
+    {
+      "label": "LWNavigationActionPolicy",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L200",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy",
+      "community": 4,
+      "norm_label": "lwnavigationactionpolicy"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L201",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy_allow",
+      "community": 4,
+      "norm_label": "allow"
+    },
+    {
+      "label": "cancel",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L202",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy_cancel",
+      "community": 4,
+      "norm_label": "cancel"
+    },
+    {
+      "label": "openInNewTab",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L203",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy_openinnewtab",
+      "community": 4,
+      "norm_label": "openinnewtab"
+    },
+    {
+      "label": "LWWebContainerConfiguration",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L217",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwwebcontainerconfiguration",
+      "community": 4,
+      "norm_label": "lwwebcontainerconfiguration"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L246",
+      "id": "lwwebcontainer_swift_lwwebcontainerextensions_lwwebcontainerconfiguration_init",
+      "community": 4,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "MyTabBarController.m",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L1",
+      "id": "example_lwwebcontainer_mytabbarcontroller_m",
+      "community": 9,
+      "norm_label": "mytabbarcontroller.m"
+    },
+    {
+      "label": "MyTabBarController",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L11",
+      "id": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller",
+      "community": 9,
+      "norm_label": "mytabbarcontroller"
+    },
+    {
+      "label": "-viewDidLoad",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L15",
+      "id": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller_viewdidload",
+      "community": 9,
+      "norm_label": "-viewdidload"
+    },
+    {
+      "label": "-setSelectedIndex",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L22",
+      "id": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller_setselectedindex",
+      "community": 9,
+      "norm_label": "-setselectedindex"
+    },
+    {
+      "label": "-tabBardidSelectItem",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L29",
+      "id": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller_tabbardidselectitem",
+      "community": 9,
+      "norm_label": "-tabbardidselectitem"
+    },
+    {
+      "label": "LWHookConfig.m",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L1",
+      "id": "example_lwwebcontainer_lwhookconfig_m",
+      "community": 6,
+      "norm_label": "lwhookconfig.m"
+    },
+    {
+      "label": "LWHookConfig",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L12",
+      "id": "lwwebcontainer_lwhookconfig_lwhookconfig",
+      "community": 6,
+      "norm_label": "lwhookconfig"
+    },
+    {
+      "label": "-hookEventDict",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L16",
+      "id": "lwwebcontainer_lwhookconfig_lwhookconfig_hookeventdict",
+      "community": 6,
+      "norm_label": "-hookeventdict"
+    },
+    {
+      "label": "UIResponder",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L70",
+      "id": "lwwebcontainer_lwhookconfig_uiresponder",
+      "community": 6,
+      "norm_label": "uiresponder"
+    },
+    {
+      "label": "-load",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L72",
+      "id": "lwwebcontainer_lwhookconfig_uiresponder_load",
+      "community": 6,
+      "norm_label": "-load"
+    },
+    {
+      "label": "-setupWithConfiguration",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L78",
+      "id": "lwwebcontainer_lwhookconfig_uiresponder_setupwithconfiguration",
+      "community": 6,
+      "norm_label": "-setupwithconfiguration"
+    },
+    {
+      "label": "WCAppDelegate.h",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.h",
+      "source_location": "L1",
+      "id": "example_lwwebcontainer_wcappdelegate_h",
+      "community": 12,
+      "norm_label": "wcappdelegate.h"
+    },
+    {
+      "label": "MyTabBarController.h",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/MyTabBarController.h",
+      "source_location": "L1",
+      "id": "example_lwwebcontainer_mytabbarcontroller_h",
+      "community": 13,
+      "norm_label": "mytabbarcontroller.h"
+    },
+    {
+      "label": "main.m",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/main.m",
+      "source_location": "L1",
+      "id": "example_lwwebcontainer_main_m",
+      "community": 14,
+      "norm_label": "main.m"
+    },
+    {
+      "label": "LWHookConfig.h",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/LWHookConfig.h",
+      "source_location": "L1",
+      "id": "example_lwwebcontainer_lwhookconfig_h",
+      "community": 15,
+      "norm_label": "lwhookconfig.h"
+    },
+    {
+      "label": "WCAppDelegate.m",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L1",
+      "id": "example_lwwebcontainer_wcappdelegate_m",
+      "community": 5,
+      "norm_label": "wcappdelegate.m"
+    },
+    {
+      "label": "WCAppDelegate",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L13",
+      "id": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "community": 5,
+      "norm_label": "wcappdelegate"
+    },
+    {
+      "label": "-applicationdidFinishLaunchingWithOptions",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L15",
+      "id": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationdidfinishlaunchingwithoptions",
+      "community": 5,
+      "norm_label": "-applicationdidfinishlaunchingwithoptions"
+    },
+    {
+      "label": "-applicationWillResignActive",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L35",
+      "id": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationwillresignactive",
+      "community": 5,
+      "norm_label": "-applicationwillresignactive"
+    },
+    {
+      "label": "-applicationDidEnterBackground",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L41",
+      "id": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationdidenterbackground",
+      "community": 5,
+      "norm_label": "-applicationdidenterbackground"
+    },
+    {
+      "label": "-applicationWillEnterForeground",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L47",
+      "id": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationwillenterforeground",
+      "community": 5,
+      "norm_label": "-applicationwillenterforeground"
+    },
+    {
+      "label": "-applicationDidBecomeActive",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L52",
+      "id": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationdidbecomeactive",
+      "community": 5,
+      "norm_label": "-applicationdidbecomeactive"
+    },
+    {
+      "label": "-applicationWillTerminate",
+      "file_type": "code",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L57",
+      "id": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationwillterminate",
+      "community": 5,
+      "norm_label": "-applicationwillterminate"
+    },
+    {
+      "label": "LWWebContainerVC.m",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L1",
+      "id": "lwwebcontainer_classes_lwwebcontainervc_m",
+      "community": 1,
+      "norm_label": "lwwebcontainervc.m"
+    },
+    {
+      "label": "LWWebContainerVC",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L13",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc",
+      "community": 1,
+      "norm_label": "lwwebcontainervc"
+    },
+    {
+      "label": "-webViewControllerWithURLString",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L21",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_webviewcontrollerwithurlstring",
+      "community": 1,
+      "norm_label": "-webviewcontrollerwithurlstring"
+    },
+    {
+      "label": "-pool",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L30",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_pool",
+      "community": 1,
+      "norm_label": "-pool"
+    },
+    {
+      "label": "-viewDidLoad",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L39",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_viewdidload",
+      "community": 1,
+      "norm_label": "-viewdidload"
+    },
+    {
+      "label": "-dealloc",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L104",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_dealloc",
+      "community": 1,
+      "norm_label": "-dealloc"
+    },
+    {
+      "label": "-viewWillAppear",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L113",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_viewwillappear",
+      "community": 1,
+      "norm_label": "-viewwillappear"
+    },
+    {
+      "label": "-viewWillDisappear",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L120",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_viewwilldisappear",
+      "community": 1,
+      "norm_label": "-viewwilldisappear"
+    },
+    {
+      "label": "-loadURL",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L126",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_loadurl",
+      "community": 1,
+      "norm_label": "-loadurl"
+    },
+    {
+      "label": "-loadURLInNewTab",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L133",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_loadurlinnewtab",
+      "community": 1,
+      "norm_label": "-loadurlinnewtab"
+    },
+    {
+      "label": "-reload",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L139",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_reload",
+      "community": 1,
+      "norm_label": "-reload"
+    },
+    {
+      "label": "-refreshReload",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L145",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_refreshreload",
+      "community": 1,
+      "norm_label": "-refreshreload"
+    },
+    {
+      "label": "-webViewdidFinishNavigation",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L153",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_webviewdidfinishnavigation",
+      "community": 1,
+      "norm_label": "-webviewdidfinishnavigation"
+    },
+    {
+      "label": "-webViewdecidePolicyForNavigationActiondecisionHandler",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L160",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_webviewdecidepolicyfornavigationactiondecisionhandler",
+      "community": 1,
+      "norm_label": "-webviewdecidepolicyfornavigationactiondecisionhandler"
+    },
+    {
+      "label": "-cookiesDidChangeInCookieStore",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L226",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_cookiesdidchangeincookiestore",
+      "community": 1,
+      "norm_label": "-cookiesdidchangeincookiestore"
+    },
+    {
+      "label": "-userContentControllerdidReceiveScriptMessage",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L235",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_usercontentcontrollerdidreceivescriptmessage",
+      "community": 1,
+      "norm_label": "-usercontentcontrollerdidreceivescriptmessage"
+    },
+    {
+      "label": "-appOpenURLString",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L284",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_appopenurlstring",
+      "community": 1,
+      "norm_label": "-appopenurlstring"
+    },
+    {
+      "label": "-observeValueForKeyPathofObjectchangecontext",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L298",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_observevalueforkeypathofobjectchangecontext",
+      "community": 1,
+      "norm_label": "-observevalueforkeypathofobjectchangecontext"
+    },
+    {
+      "label": "-valueForKeyfromQueryItems",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L317",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_valueforkeyfromqueryitems",
+      "community": 1,
+      "norm_label": "-valueforkeyfromqueryitems"
+    },
+    {
+      "label": "-backAction",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L327",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_backaction",
+      "community": 1,
+      "norm_label": "-backaction"
+    },
+    {
+      "label": "-backItemWithAction",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L331",
+      "id": "classes_lwwebcontainervc_lwwebcontainervc_backitemwithaction",
+      "community": 1,
+      "norm_label": "-backitemwithaction"
+    },
+    {
+      "label": "LWWebContainerVC.h",
+      "file_type": "code",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.h",
+      "source_location": "L1",
+      "id": "lwwebcontainer_classes_lwwebcontainervc_h",
+      "community": 16,
+      "norm_label": "lwwebcontainervc.h"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleswiftuiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_configurationexampleviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L264",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_lwwebcontainerviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "target": "uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_presentwebcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_pushwebcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_loadurlincontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_loadurlinnewtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_accesswebview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_cookiemanagement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller",
+      "target": "uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_configurationexampleviewcontroller",
+      "target": "uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_loadurlincontainer",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_lwwebcontainerviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_loadurlincontainer",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_url"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleviewcontroller_example_loadurlinnewtab",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_url"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_exampleswiftuiview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_injectjavascript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_injectcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_customschemehandling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_advancedexampleviewcontroller_example_webtonativejavascriptbridge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L249",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_configurationexampleviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_configurationexampleviewcontroller_example_usingconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_configurationexampleviewcontroller_example_usingconfiguration",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwwebcontainerconfiguration"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerusageexamples_lwwebcontainerviewcontroller_customwebviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerUsageExamples.swift",
+      "source_location": "L268",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerusageexamples_lwwebcontainerviewcontroller_customwebviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webviewcontroller"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewwrapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview",
+      "target": "uiviewrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_makecoordinator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_makeuiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_updateuiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_makecoordinator",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_makeuiview",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewcontroller_getprocesspool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerview_makeuiview",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "target": "nsobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "target": "wknavigationdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "target": "wkuidelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_coordinator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_coordinator",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_coordinator_webview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "wknavigationdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "wknavigationdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L320",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "wkuidelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "wkuidelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewcontroller_getprocesspool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_view",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_view_lwwebcontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewwrapper",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_view_lwwebcontainer",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerviewwrapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable",
+      "target": "uiviewcontrollerrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L216",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable_makeuiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerView.swift",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable",
+      "target": "lwwebcontainer_swift_lwwebcontainerview_lwwebcontainerrepresentable_updateuiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_wclog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L383",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_reload",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_wclog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L270",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webview",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_wclog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L343",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_wclog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_load",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_wclog"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "call",
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_deinit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewwillappear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setupwebview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setupprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setuprefreshcontrol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadurlinnewtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_refreshreload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_backaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_createbackbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadbundleimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_appopenurlstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_observevalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L326",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "wkscriptmessagehandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L328",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L383",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "wkhttpcookiestoreobserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L386",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_cookiesdidchange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L291",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webview",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L344",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_createbackbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setupwebview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setupprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setuprefreshcontrol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_viewdidload",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_url"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_setupwebview",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L372",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_refreshreload",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L367",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_createbackbutton",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadbundleimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_loadbundleimage",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_bundle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L271",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_webview",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_appopenurlstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L338",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_appopenurlstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_appopenurlstring",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_url"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "wkscriptmessagehandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "LWWebContainer_swift/LWWebContainerViewController.swift",
+      "source_location": "L371",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerviewcontroller_lwwebcontainerviewcontroller_usercontentcontroller",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_url"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "wkhttpcookiestoreobserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_bundle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwscriptmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_swift",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwwebcontainerconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_load",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_evaluatejavascript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_injectcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_injectjavascript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_injectcss",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_evaluatejavascript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_injectjavascript",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_wkwebview_evaluatejavascript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_bundle",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_bundle_lwwebcontainerimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_synccookies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_getallcookies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_deleteallcookies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_deleteallcookies",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwcookiemanager_getallcookies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy_allow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy_cancel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwnavigationactionpolicy_openinnewtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer_swift/LWWebContainerExtensions.swift",
+      "source_location": "L246",
+      "weight": 1.0,
+      "source": "lwwebcontainer_swift_lwwebcontainerextensions_lwwebcontainerconfiguration",
+      "target": "lwwebcontainer_swift_lwwebcontainerextensions_lwwebcontainerconfiguration_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_lwwebcontainer_mytabbarcontroller_m",
+      "target": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller",
+      "target": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller",
+      "target": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller_setselectedindex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/MyTabBarController.m",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller",
+      "target": "lwwebcontainer_mytabbarcontroller_mytabbarcontroller_tabbardidselectitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "example_lwwebcontainer_lwhookconfig_m",
+      "target": "lwwebcontainer_lwhookconfig_lwhookconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "example_lwwebcontainer_lwhookconfig_m",
+      "target": "lwwebcontainer_lwhookconfig_uiresponder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "lwwebcontainer_lwhookconfig_lwhookconfig",
+      "target": "lwwebcontainer_lwhookconfig_lwhookconfig_hookeventdict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "lwwebcontainer_lwhookconfig_uiresponder",
+      "target": "lwwebcontainer_lwhookconfig_uiresponder_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/LWHookConfig.m",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "lwwebcontainer_lwhookconfig_uiresponder",
+      "target": "lwwebcontainer_lwhookconfig_uiresponder_setupwithconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "example_lwwebcontainer_wcappdelegate_m",
+      "target": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "target": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationdidfinishlaunchingwithoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "target": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationwillresignactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "target": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationdidenterbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "target": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationwillenterforeground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "target": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationdidbecomeactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWWebContainer/WCAppDelegate.m",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "lwwebcontainer_wcappdelegate_wcappdelegate",
+      "target": "lwwebcontainer_wcappdelegate_wcappdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwwebcontainer_classes_lwwebcontainervc_m",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_webviewcontrollerwithurlstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_pool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_dealloc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_viewwillappear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_viewwilldisappear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_loadurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_loadurlinnewtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_refreshreload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_webviewdidfinishnavigation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_webviewdecidepolicyfornavigationactiondecisionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_cookiesdidchangeincookiestore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L235",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_usercontentcontrollerdidreceivescriptmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L284",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_appopenurlstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L298",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_observevalueforkeypathofobjectchangecontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L317",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_valueforkeyfromqueryitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L327",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_backaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWWebContainer/Classes/LWWebContainerVC.m",
+      "source_location": "L331",
+      "weight": 1.0,
+      "source": "classes_lwwebcontainervc_lwwebcontainervc",
+      "target": "classes_lwwebcontainervc_lwwebcontainervc_backitemwithaction",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
